@@ -6,7 +6,6 @@ const { execSync } = require("node:child_process");
 const { readFileSync, writeFileSync } = require("node:fs");
 
 writeFileSync(`${moduleName}/README.md`, readFileSync("README.md", "utf-8"));
-execSync(`cd ${moduleName}`);
-execSync('npm publish');
+execSync(`cd ${moduleName} && npm publish`);
 
 process.exit(0);
