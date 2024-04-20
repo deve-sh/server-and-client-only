@@ -18,6 +18,7 @@
 	"exports": {
 		".": {
 			"node": "./index.js",
+            "node-addons": "./index.js",
 			"default": "./pass.js"
 		}
 	},
