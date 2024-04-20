@@ -1,1 +1,1 @@
-// Empty
+// Empty, this will be imported for non-node environments

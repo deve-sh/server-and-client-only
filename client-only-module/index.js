@@ -1,3 +1,5 @@
+// This will be imported for node environments
+
 if (typeof window === "undefined") {
 	// In case this file does creep into any imports from a server module, throw an error and block dev/builds.
 	throw new Error(

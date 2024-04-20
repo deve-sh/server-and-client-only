@@ -25,3 +25,22 @@ async function yourCode() {
     ...
 }
 ```
+
+### Running Tests
+
+```bash
+npm run test
+```
+
+### Publishing to npm
+
+```bash
+# Don't forget to bump the version first
+
+npm run release:server-only
+npm run release:client-only
+```
+
+### Minor Note
+
+This package uses [Node.js' Conditional Exports](https://nodejs.org/api/packages.html#conditional-exports), hence the minimum required Node version is 12.
