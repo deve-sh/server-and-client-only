@@ -4,12 +4,16 @@
 	"description": "Framework agnostic way to mark JavaScript modules as Server or Client only.",
 	"scripts": {
 		"release:server-only": "node scripts/publish server-only-module",
-		"release:client-only": "node scripts/publish client-only-module"
+		"release:client-only": "node scripts/publish client-only-module",
+		"test": "jest"
 	},
 	"keywords": [
 		"server-only",
 		"client-only"
 	],
 	"author": "Devesh Kumar",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
 }
