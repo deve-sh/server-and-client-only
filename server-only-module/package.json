@@ -1,0 +1,29 @@
+{
+	"name": "server-only-module",
+	"description": "This is a marker package to indicate that a module can only be used in a server environment.",
+	"keywords": [
+		"server-only"
+	],
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deve-sh/server-and-client-only.git"
+	},
+	"license": "MIT",
+	"files": [
+		"index.js",
+		"pass.js"
+	],
+	"main": "index.js",
+	"exports": {
+		".": {
+			"node": "./pass.js",
+			"default": "./index.js"
+		}
+	},
+	"bugs": {
+		"url": "https://github.com/deve-sh/server-and-client-only/issues"
+	},
+	"homepage": "https://github.com/deve-sh/server-and-client-only#readme",
+	"author": "Devesh Kumar <contact@devesh.tech>"
+}
